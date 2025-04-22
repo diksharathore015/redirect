@@ -27,12 +27,13 @@ const nextConfig: NextConfig = {
   async redirects() {
     return [
       {
-        source: "/:path*",
-        destination: "https://militaryschoolscoaching.com/:path*",
-        permanent: true,
-      }
+        source: "/:path*", // Match all routes
+        has: [], // No special conditions
+        destination: "https://militaryschoolscoaching.com/:path*", // New domain with dynamic paths
+        permanent: true, // HTTP 301
+      },
     ];
-  }
+  },
 };
 
 export default nextConfig;
