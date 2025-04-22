@@ -1,10 +1,4 @@
 import { Constants, fetchBaseUrl } from "@/Constants/urls";
-import apiDataController from "@/controllers/RequestController";
-
-import { get } from "@/actions/actions";
-// import dynamic from "next/dynamic";
-import { AppAssets } from "@/Constants/assets";
-import dynamic from "next/dynamic";
  
 // import Banner from "./components/home/Banner";
 // import Blogs from "./components/home/Blogs";

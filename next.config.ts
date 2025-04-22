@@ -27,7 +27,7 @@ const nextConfig: NextConfig = {
   async redirects() {
     return [
       {
-        source: "/(.*)",
+        source: "/:path*",
         destination: "https://militaryschoolscoaching.com/:path*",
         permanent: true,
       }
