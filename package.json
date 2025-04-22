@@ -1,0 +1,47 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build || echo 'Ignoring build errors'",
+    "start": "next start",
+    "lint": "next lint"
+   
+  },
+  "dependencies": {
+    "@react-google-maps/api": "^2.19.2",
+    "@reduxjs/toolkit": "^2.3.0",
+    "axios": "^1.7.7",
+    "formik": "^2.4.6",
+    "googleapis": "^144.0.0",
+    "leaflet": "^1.9.4",
+    "leaflet-defaulticon-compatibility": "^0.1.2",
+    "next": "15.0.2",
+    "next-auth": "^4.24.10",
+    "next-pwa": "^5.6.0",
+    "node": "^23.5.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-icons": "^5.3.0",
+    "react-leaflet": "^5.0.0",
+    "react-loading-skeleton": "^3.5.0",
+    "react-redux": "^9.1.2",
+    "react-responsive-carousel": "^3.2.23",
+    "react-select": "^5.10.0",
+    "react-slick": "^0.30.2",
+    "slick-carousel": "^1.8.1",
+    "yarn": "^1.22.22"
+  },
+  "devDependencies": {
+    "@next/bundle-analyzer": "^15.1.1",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "15.0.2",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
+}

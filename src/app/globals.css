@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@1,300&family=Dosis:wght@300&family=Noto+Sans:wght@100;200;300;400;500;600;700;800;900&family=Poppins&family=Rosario:wght@300&family=Rowdies:wght@300;400;700&display=swap");
+.rowdies {
+  font-family: "Rowdies", sans-serif;
+}
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@1,300&family=Dosis:wght@300&family=Noto+Sans:wght@100;200;300;400;500;600;700;800;900&family=Poppins&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rosario:wght@300&family=Rowdies:wght@300;400;700&display=swap");
+.raw-html-container {
+  /* Reset styles to ensure default browser styling for tags */
+  all: unset; /* Unset all inherited styles */
+  display: block; /* Restore block-level display for div */
+}
+
+
+.raw-html-container h1,
+.raw-html-container h2,
+.raw-html-container h3,
+.raw-html-container p,
+.raw-html-container ul,
+.raw-html-container li,
+.raw-html-container strong {
+  all: revert; /* Revert to browser defaults */
+}
+
+.raw-html-container h1 {
+  font-size: 2em;
+  font-weight: bold;
+  margin: 0.67em 0;
+}
+
+.raw-html-container h2 {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 0.83em 0;
+}
+
+.raw-html-container p {
+  font-size: 1em;
+  margin: 1em 0;
+}
+
+.raw-html-container ul {
+  list-style-type: disc;
+  margin: 1em 0;
+  padding-left: 40px;
+}
+
+.raw-html-container strong {
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Geist Sans";
+  src: url("/fonts/GeistVF.woff") format("woff");
+  font-weight: 100 900;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Geist Mono";
+  src: url("/fonts/GeistMonoVF.woff") format("woff");
+  font-weight: 100 900;
+  font-display: swap;
+}
